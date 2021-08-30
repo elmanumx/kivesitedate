@@ -2,6 +2,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #f9f9f9 !important;
 }
 
 /** Section Navbar **/
@@ -24,4 +25,22 @@ li {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
   font-weight: 700;
+}
+
+.header__nav-point_active {
+  background: none !important;
+  border: none !important;
+}
+
+.header__logo {
+  margin-left: 45px;
+}
+
+/** index **/
+section {
+  min-height: 520px;
+  background: #dbdbdb;
+  position: relative;
+  background: #bea1ab url(../img/main/img/img-02.jpg) center 0 no-repeat;
+  color: #f9f9f9 !important;
 }

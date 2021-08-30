@@ -13,13 +13,13 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item active">
+                        <li class="nav-item <?=($action == '' ? 'active' : '');?>">
                               <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?=($action == 'service' ? 'active' : '');?>">
                               <a class="nav-link" href="#">Our Services</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item <?=(stristr($action, 'gallery') ? 'active' : '');?>">
                               <a class="nav-link" href="#">Ladies Gallery</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -34,8 +34,8 @@
 
                               </div>
                         </li>
-                        <li class="nav-item">
-                              <a class="nav-link" href="#">Blog</a>
+                        <li class="nav-item <?=(stristr($action, 'girls') ? 'active' : '');?>">
+                              <a class="nav-link" href="#">Девушкам</a>
                         </li>
                   </ul>
 

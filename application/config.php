@@ -20,10 +20,10 @@ $config = array(
     'db_type' => 'pdo',
     'db_hostname' => 'localhost',
     'db_port' => 3306,
-    //'db_username' => 'root',
-    //'db_password' => '',
-    'db_username' => 'kievdat1_root',
-    'db_password' => 'kievdat1_kievdatingagency_root',
+    'db_username' => 'root',
+    'db_password' => '',
+    // 'db_username' => 'kievdat1_root',
+    // 'db_password' => 'kievdat1_kievdatingagency_root',
     'db_database' => 'kievdat1_kievdatingagency',
 
     // Mail
