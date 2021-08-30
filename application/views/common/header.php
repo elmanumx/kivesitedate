@@ -29,9 +29,11 @@
       <link rel="stylesheet" href="application/public/css/lightbox.min.css">
       <!-- Main CSS -->
       <link rel="stylesheet" href="application/public/css/main_2.css">
+
       <?php if (isset($css)): foreach ($css as $style): ?>
       <link href="application/public/css/<?php echo $style; ?>.css" rel="stylesheet">
       <?php endforeach;endif;?>
+      <link rel="stylesheet" href="application/public/css/style.css">
 </head>
 
 <body translate="no">

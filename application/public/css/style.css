@@ -1,3 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/** Section Navbar **/
 .bg-light {
-      background-color: #0d61b5!important;
+  background-color: rgba(206, 188, 188, 0.1) !important;
+}
+
+ul,
+li {
+  padding: 15px;
+  color: #f9f9f9 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #f9f9f9 !important;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3em;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-weight: 700;
 }
