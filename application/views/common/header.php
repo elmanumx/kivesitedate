@@ -34,6 +34,8 @@
       <link href="application/public/css/<?php echo $style; ?>.css" rel="stylesheet">
       <?php endforeach;endif;?>
       <link rel="stylesheet" href="application/public/css/style.css">
+      <link rel="stylesheet" href="application/public/libs/owlslider/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="application/public/libs/owlslider/assets/owl.theme.default.min.css">
 </head>
 
 <body translate="no">
