@@ -36,6 +36,7 @@
       <link rel="stylesheet" href="application/public/css/style.css">
       <link rel="stylesheet" href="application/public/libs/owlslider/assets/owl.carousel.min.css">
       <link rel="stylesheet" href="application/public/libs/owlslider/assets/owl.theme.default.min.css">
+      <link rel="stylesheet" href="application/public/libs/icons/demo-files/demo.css">
 </head>
 
 <body translate="no">

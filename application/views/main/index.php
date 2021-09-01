@@ -30,33 +30,65 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
       <div class="container">
             <div class="container-fluid">
                   <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 text-center">
                               <div id="news-slider" class="owl-carousel">
                                     <?php for ($i = 0; $i <= 7; $i++) {?>
 
-                                    <div class="post-slide">
+                                    <div class="post-slide sha-1">
                                           <div class="post-img">
                                                 <img src="application/public/img/main/<?php echo $url_img[$i]; ?>"
                                                       alt="">
                                                 <a href="girls/<?=$top_girls[$i];?>" class="over-layer"><i
                                                             class="fa fa-link"></i></a>
-                                          </div>
-                                          <div class="post-content">
                                                 <h3 class="post-title">
-                                                      <a href="#"><?php echo $name_girls[$i] ?></a>
+                                                      <?php echo $name_girls[$i] ?>
+                                                      <span class="icon icon-heart"></span>
                                                 </h3>
-                                                <p class="post-description"></p>
-                                                <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
-                                                <a href="girls/<?=$top_girls[$i];?>" class="read-more">read more</a>
                                           </div>
+
                                     </div>
 
                                     <?php }?>
                               </div>
+                              <button type="button" class="sha-1 btn btn-primary mb-4">More ladies</button>
                         </div>
                   </div>
             </div>
 
+
+      </div>
+</section>
+
+<section class="section-03">
+      <div class="container text-center">
+            <h2>Why to choose us?</h2>
+            <div class="row p-5">
+                  <div class="col-md-4">
+                        <h3>Selected single women</h3>
+                        <p>
+                              We only invite serious women into our agency , who are looking for a serious relationship
+                              with a
+                              reliable man</p>
+                  </div>
+                  <div class="col-md-4">
+                        <h3>
+                              Professional team
+                        </h3>
+                        <p>
+                              Our team was created with a unique format to all other marriage agen- cies. With our
+                              totally new
+                              concept that will guarantee that you meet the woman of your dreams</p>
+                  </div>
+                  <div class="col-md-4">
+                        <h3>Individual approach</h3>
+                        <p>
+                              The manager of the agency will personally communicate with every customer . We give useful
+                              advice and suggestions for you to find your
+                              soulmate.
+                        </p>
+
+                  </div>
+            </div>
 
       </div>
 </section>

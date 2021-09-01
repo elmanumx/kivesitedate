@@ -131,7 +131,7 @@ section {
   /*margin: 20px 15px 20px;*/
   border-radius: 15px;
   /*padding-top: 1px;*/
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 14px 22px -9px #bbcbd8;
 }
 .post-slide .post-img {
   position: relative;
@@ -160,8 +160,8 @@ section {
   opacity: 0;
   background: linear-gradient(
     -45deg,
-    rgba(181, 144, 155, 0.75) 0%,
-    rgba(146, 97, 111, 0.6) 100%
+    rgba(6, 190, 244, 0.75) 0%,
+    rgba(45, 112, 253, 0.6) 100%
   );
   transition: all 0.5s linear;
 }
@@ -177,14 +177,11 @@ section {
   color: #fff;
   font-size: 25px;
 }
-
-.post-slide .post-title {
-  position: absolute;
-  margin-top: -40px;
-  left: 15px;
-  font-size: 1.3em;
+.post-slide .post-content {
+  background: #fff;
+  padding: 2px 20px 40px;
+  border-radius: 15px;
 }
-
 .post-slide .post-title a {
   font-size: 15px;
   font-weight: bold;
@@ -193,7 +190,39 @@ section {
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
 }
-
+.post-slide .post-title a:hover {
+  text-decoration: none;
+  color: #3498db;
+}
+.post-slide .post-description {
+  line-height: 24px;
+  color: #808080;
+  margin-bottom: 25px;
+}
+.post-slide .post-date {
+  color: #a9a9a9;
+  font-size: 14px;
+}
+.post-slide .post-date i {
+  font-size: 20px;
+  margin-right: 8px;
+  color: #cfdace;
+}
+.post-slide .read-more {
+  padding: 7px 20px;
+  float: right;
+  font-size: 12px;
+  background: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 10px 20px -10px #1376c5;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+.post-slide .read-more:hover {
+  background: #3498db;
+  text-decoration: none;
+  color: #fff;
+}
 .owl-controls .owl-buttons {
   text-align: center;
   margin-top: 20px;
@@ -234,16 +263,3 @@ section {
   }
 }
 /** Slider Section**/
-
-.icon {
-  color: #92616f !important;
-}
-
-/**Section 3**/
-.section-03 {
-  background: #baaaaf;
-}
-
-.section-03 .container {
-  padding-top: 40px;
-}
