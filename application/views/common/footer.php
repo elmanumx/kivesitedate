@@ -176,14 +176,14 @@
 $(document).ready(function() {
       var owl = $('.owl-carousel');
 
-      owl.owlCarousel({
+      $('.owl-one').owlCarousel({
             items: 4,
-            loop: false,
+            loop: true,
             margin: 10,
-            autoplay: false,
+            autoplay: true,
             autoplayTimeout: 5000,
-            autoplayHoverPause: false,
-            responsiveClass: false,
+            autoplayHoverPause: true,
+            responsiveClass: true,
             responsive: {
                   0: {
                         items: 1,
@@ -191,21 +191,41 @@ $(document).ready(function() {
                   },
                   600: {
                         items: 3,
-                        nav: false
+                        nav: true
                   },
                   1000: {
                         items: 4,
                         nav: true,
-                        loop: false
+                        loop: true
                   }
             }
       });
-      $('.play').on('click', function() {
-            owl.trigger('play.owl.autoplay', [5000])
-      })
-      $('.stop').on('click', function() {
-            owl.trigger('stop.owl.autoplay')
-      })
+      $('.owl-two').owlCarousel({
+            items: 3,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            responsiveClass: true,
+            responsive: {
+                  0: {
+                        items: 1,
+                        nav: true
+                  },
+                  600: {
+                        items: 2,
+                        nav: true
+                  },
+                  1000: {
+                        items: 3,
+                        nav: true,
+                        loop: true
+                  }
+            }
+      });
+
+
 });
 </script>
 </body>

@@ -1,12 +1,12 @@
 <?=$header;?>
 
+<?=$nav;?>
 <section class="section-01">
-      <?=$nav;?>
 
       <div class="container d-flex align-items-center">
 
-            <div class="row justify-content-center align-items-center minh-100">
-                  <div class="text-center col-md-8">
+            <div class="row justify-content-center align-items-center minh-100 mt-5">
+                  <div class="text-center col-md-8 mt-5">
                         <h2>Date the love of your life </h2>
                         <h2>Welcome to Kiev Dating Agency!</h2>
                         <h3>Our agency specializes in organizing dates with beautiful and smart single Ukrainian
@@ -31,7 +31,7 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
             <div class="container-fluid">
                   <div class="row">
                         <div class="col-md-12 text-center">
-                              <div id="news-slider" class="owl-carousel">
+                              <div id="news-slider" class="owl-carousel owl-one">
                                     <?php for ($i = 0; $i <= 7; $i++) {?>
 
                                     <div class="post-slide sha-1">
@@ -42,7 +42,7 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
                                                             class="fa fa-link"></i></a>
                                                 <h3 class="post-title">
                                                       <?php echo $name_girls[$i] ?>
-                                                      <span class="icon icon-heart"></span>
+                                                      <span class="icon icon-heart iw"></span>
                                                 </h3>
                                           </div>
 
@@ -62,8 +62,95 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
 <section class="section-03">
       <div class="container text-center">
             <h2>Why to choose us?</h2>
-            <div class="row p-5">
-                  <div class="col-md-4">
+            <div class="owl-carousel owl-two">
+                  <div class="item">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
+                        <h3>Selected single women</h3>
+                        <p>
+                              We only invite serious women into our agency , who are looking for a serious relationship
+                              with a
+                              reliable man</p>
+
+                  </div>
+                  <div class="item">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
+                        <h3>
+                              Professional team
+                        </h3>
+                        <p>
+                              Our team was created with a unique format to all other marriage agen- cies. With our
+                              totally new
+                              concept that will guarantee that you meet the woman of your dreams</p>
+                  </div>
+                  <div class="item">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
+                        <h3>Individual approach</h3>
+                        <p>
+                              The manager of the agency will personally communicate with every customer . We give useful
+                              advice and suggestions for you to find your
+                              soulmate.
+                        </p>
+                  </div>
+                  <div class="item">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
+                        <h3>Genuine service
+                        </h3>
+                        <p>
+                              System is 100% transparent so you can check all documents and ask for any information you
+                              need about our agency. We value our reparation and we try to be the best in the dating
+                              industry among other European agencie
+                        </p>
+                  </div>
+                  <div class="item">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
+                        <h3>Professional assistance
+
+                        </h3>
+                        <p>
+                              With advice from the stylist and coaching from the professional, we can help you to
+                              conquer any woman ! We provide any kind of help for our costumers
+                        </p>
+                  </div>
+                  <div class="item">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
+                        <h3>24-hour support
+
+
+                        </h3>
+                        <p>
+                              We offer 24 hour support to all of our clients, including help with booking tickets,
+                              airport transfers, finding the highest quality accommodation and ordering private driver
+                              or taxi for you
+
+
+                        </p>
+                  </div>
+
+            </div>
+
+      </div>
+</section>
+<?=$footer;?>
+
+
+<!--
+
+ <div class="col-md-4 text-center">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
                         <h3>Selected single women</h3>
                         <p>
                               We only invite serious women into our agency , who are looking for a serious relationship
@@ -71,6 +158,9 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
                               reliable man</p>
                   </div>
                   <div class="col-md-4">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
                         <h3>
                               Professional team
                         </h3>
@@ -80,6 +170,9 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
                               concept that will guarantee that you meet the woman of your dreams</p>
                   </div>
                   <div class="col-md-4">
+                        <div class="container-icon">
+                              <i class="icon icon-heart ic"></i>
+                        </div>
                         <h3>Individual approach</h3>
                         <p>
                               The manager of the agency will personally communicate with every customer . We give useful
@@ -88,8 +181,4 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
                         </p>
 
                   </div>
-            </div>
-
-      </div>
-</section>
-<?=$footer;?>
+                                    -->

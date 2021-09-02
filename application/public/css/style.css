@@ -5,26 +5,48 @@ body {
   color: #f9f9f9 !important;
 }
 
-/** Section Navbar **/
+/** Section Navbar 
 .bg-light {
-  background-color: rgba(206, 188, 188, 0.1) !important;
+  background-color: rgba(206, 188, 188, 0) !important;
+}
+.bg-white {
+  background-color: rgba(206, 188, 188, 0.7) !important;
+}
+**/
+
+.navbar-top {
+  background-color: rgba(206, 188, 188, 0) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.navbar-scroll a img {
+  width: 80px;
+}
+.navbar-scroll {
+  padding: 0px;
+  background-color: rgba(206, 188, 188, 7) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 ul,
 li {
-  padding: 15px;
-  color: #f9f9f9 !important;
+  padding: 5px;
+  color: #dbdbdb !important;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #f9f9f9 !important;
-  color: rgba(0, 0, 0, 0.5);
+  color: #dbdbdb;
   font-size: 1.3em;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #dbdbdb;
+  font-size: 1.3em;
+}
+
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
   font-weight: 700;
+  color: #dbdbdb;
 }
 
 .header__nav-point_active {
@@ -38,13 +60,13 @@ li {
 
 /** index **/
 section {
-  min-height: 520px;
   background: #dbdbdb;
   position: relative;
   color: #f9f9f9 !important;
 }
 .section-01 {
   background: #bea1ab url(../img/main/img/img-02.jpg) center 0 no-repeat;
+  min-height: 520px;
 }
 
 .minh-100 {
@@ -66,6 +88,10 @@ section {
   border-radius: 18px;
   padding: 12px;
   min-width: 180px;
+}
+
+.section-02 {
+  min-height: 520px;
 }
 
 .sha-1 {
@@ -235,15 +261,46 @@ section {
 }
 /** Slider Section**/
 
-.icon {
+.iw {
+  color: #f0f0f0 !important;
+}
+.ic {
   color: #92616f !important;
 }
 
 /**Section 3**/
 .section-03 {
+  min-height: 390px;
   background: #baaaaf;
 }
 
 .section-03 .container {
   padding-top: 40px;
+}
+
+.section-03 h2 {
+  color: #555555;
+}
+
+.section-03 h3 {
+  color: #555555;
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.container-icon {
+  background: #865966;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 36%;
+  margin-bottom: 25px;
+}
+
+.container-icon .icon {
+  font-size: 35px;
+  color: #c7b2b9 !important;
+  margin-top: 15px;
 }

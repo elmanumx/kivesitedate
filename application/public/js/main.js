@@ -1,11 +1,24 @@
+var menu = $('#menu');
+
 $(window).scroll(function () {
     var height = $(window).scrollTop();
     /*Если сделали скролл на 110px задаём новый класс для mobile-sticky-wrap*/
+    console.log(height);
     if (height > 110) {
         $('.mobile-sticky-wrap').addClass('mobile-sticky-wrap-fixed');
     } else {
         /*Если меньше 110px удаляем класс для mobile-sticky-wrap*/
         $('.mobile-sticky-wrap').removeClass('mobile-sticky-wrap-fixed');
+    }
+
+    if(height > 60){
+        console.log("mayor")
+        $('#menu').removeClass('navbar-top');
+        $('#menu').addClass('navbar-scroll');
+    } else {
+        console.log("menor")
+        $('#menu').removeClass('navbar-scroll');
+        $('#menu').addClass('navbar-top');
     }
 });
 
