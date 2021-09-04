@@ -1,9 +1,10 @@
 <?=$header;?>
 
 <?=$nav;?>
-<section class="section-01">
+<section class="section-01 img-holder" data-image="application/public/img/main/img/img-02.jpg"
+      data-image-mobile="application/public/img/main/img/h.jpg" data-width="2000" data-height="1100">
 
-      <div class="container d-flex align-items-center">
+      <div class="container d-flex align-items-center mt-3">
 
             <div class="row justify-content-center align-items-center minh-100 mt-5">
                   <div class="text-center col-md-8 mt-5">
@@ -26,7 +27,7 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
 
 ?>
 
-<section class="section-02">
+<section class="section-02 after-para">
       <div class="container">
             <div class="container-fluid">
                   <div class="row">
@@ -59,7 +60,7 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
       </div>
 </section>
 
-<section class="section-03">
+<section class="section-03 after-para">
       <div class="container text-center">
             <h2>Why to choose us?</h2>
             <div class="owl-carousel owl-two">
@@ -142,6 +143,32 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
 
       </div>
 </section>
+
+<section class="section-04 img-holder after-para" data-cover-ratio=".6"
+      data-image="application/public/img/main/img/img-02.jpg" data-image-mobile="application/public/img/main/img/h.jpg"
+      data-width="2000" data-height="1100" data-media-height="200">
+
+      <div class="container d-flex align-items-center content">
+
+            <div class="row justify-content-center align-items-center minh-100">
+                  <div class="text-center col-md-8 col-sm-12">
+                        <h5>“We are a young Ukrainian dating company
+                              that helps people all around the world to find real love” </h5>
+                        <p>L you are single and trying to find your soulmate , our Kiev based dating service can help
+                              you.</p>
+                        <p>Our dating agency has a big database of single Ukrainian women who want to have a happy
+                              family and take care of their husband and children.</p>
+                  </div>
+            </div>
+
+
+      </div>
+</section>
+
+<div class="after-para"></div>
+
+
+
 <?=$footer;?>
 
 

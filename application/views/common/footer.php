@@ -171,6 +171,9 @@
 <?php foreach ($js as $script): ?>
 <script src="application/public/js/<?php echo $script; ?>.js" type="text/javascript" charset="utf-8"></script>
 <?php endforeach;?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+<script src="https://rawgithub.com/pederan/Parallax-ImageScroll/master/jquery.imageScroll.min.js"></script>
 
 <script>
 $(document).ready(function() {
@@ -226,6 +229,12 @@ $(document).ready(function() {
       });
 
 
+});
+
+var touch = Modernizr.touch;
+$('.img-holder').imageScroll({
+      imageAttribute: (touch === true) ? 'image-mobile' : 'image',
+      touch: touch
 });
 </script>
 </body>

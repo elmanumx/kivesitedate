@@ -19,7 +19,7 @@
       <!-- Bootstrap Reboot CSS -->
       <link rel="stylesheet" href="application/public/css/bootstrap-reboot.min.css">
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="application/public/css/bootstrap.min.css">
+      <link rel="stylesheet" href="application/public/css/bootstrap.css">
       <!-- Hamburger -->
       <link rel="stylesheet" href="application/public/css/hamburger.css">
       <!-- Fonts -->
