@@ -341,3 +341,48 @@ p {
 .after-para {
   /*top: -45px;*/
 }
+
+/** Section  05***/
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section-05 {
+  /* background: #bea1ab url(../img/main/img/img-02.jpg) center 0 no-repeat;*/
+  min-height: 480px !important;
+}
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #92616f;
+}
+
+.input1002 {
+  font-size: 1rem;
+  color: #92616f;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 68px;
+  background: transparent;
+  padding: 5px;
+  text-align: left;
+  cursor: pointer;
+  letter-spacing: 0.3rem;
+}
+
+input {
+  outline: none;
+  border: none;
+}

@@ -7,7 +7,7 @@
       <div class="container d-flex align-items-center mt-3">
 
             <div class="row justify-content-center align-items-center minh-100 mt-5">
-                  <div class="text-center col-md-8 mt-5">
+                  <div class="text-center col-md-8 ">
                         <h2>Date the love of your life </h2>
                         <h2>Welcome to Kiev Dating Agency!</h2>
                         <h3>Our agency specializes in organizing dates with beautiful and smart single Ukrainian
@@ -164,6 +164,69 @@ $url_img = ["model-nadezhda.jpg", "model-marina.jpg", "model-vladislava.jpg", "m
 
       </div>
 </section>
+
+<section class="section-05">
+      <div class="container">
+            <div class="row">
+                  <div class="col-md-12 text-center mt-5">
+                        <h3 class="mb-5 mt-3">Date the love of your life </h3>
+
+                        <div class="owl-carousel owl-tres">
+                              <div class="item">
+                                    <iframe width="320" height="245" src="https://www.youtube.com/embed/1EUNaQJbmcg"
+                                          frameborder="0"
+                                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                          allowfullscreen></iframe>
+                              </div>
+                              <div class="item">
+                                    <iframe width="320" height="245" src="https://www.youtube.com/embed/QnzKE1Hy1Oo"
+                                          frameborder="0"
+                                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                          allowfullscreen></iframe>
+                              </div>
+                              <div class="item">
+                                    <iframe width="320" height="245" src="https://www.youtube.com/embed/y6_tRAo2rpU"
+                                          frameborder="0"
+                                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                          allowfullscreen></iframe>
+                              </div>
+                        </div>
+
+                        <div class="content-form row mt-5 mb-5">
+                              <div class="col-md-12">
+                                    <h5>Subscribe for our newsletter</h5>
+                              </div>
+                              <div class="col-md-4">
+                                    <div class="wrap-input100 validate-input" data-validate="Enter username">
+                                          <input class="input1002" type="text" name="subjet" id="rest"
+                                                placeholder="SUBJECT:">
+                                          <input type="hidden" id="nCode">
+                                          <span class="focus-input100"></span>
+                                    </div>
+                                    <div class="validate-input100" style="display:none">REQUIRED!</div>
+                              </div>
+                              <div class="col-md-4">
+                                    <div class="wrap-input100 validate-input" data-validate="Enter username">
+                                          <input class="input1002" type="text" name="subjet" id="rest"
+                                                placeholder="SUBJECT:">
+                                          <input type="hidden" id="nCode">
+                                          <span class="focus-input100"></span>
+                                    </div>
+                                    <div class="validate-input100" style="display:none">REQUIRED!</div>
+                              </div>
+                              <div class="col-md-4">
+                                    <button type="button" class="btn btn-primary mt-2">Suscribe</button>
+                              </div>
+                        </div>
+                  </div>
+
+
+            </div>
+</section>
+
+
+
+
 
 <div class="after-para"></div>
 
